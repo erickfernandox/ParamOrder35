@@ -12,7 +12,7 @@ func formatParameters(lst []string) []string {
 	line := ""
 	for i, item := range lst {
 		param := fmt.Sprintf("%s=FUZZ", item)
-		if i > 0 && i%25 == 0 {
+		if i > 0 && i%35 == 0 {
 			params = append(params, line)
 			line = ""
 		}
