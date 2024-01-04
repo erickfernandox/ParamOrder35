@@ -1,4 +1,4 @@
 Installing
 
 
-go install github.com/erickfernandox/ParamOrder25@latest
+go install github.com/erickfernandox/ParamOrder35@latest
